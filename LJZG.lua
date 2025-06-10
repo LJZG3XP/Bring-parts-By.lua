@@ -1,5 +1,5 @@
 -- Gui to Lua
--- Version: 1.0
+-- Version: 0.2
 
 -- Instances:
 
@@ -23,6 +23,7 @@ Main.Parent = Gui
 Main.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
 Main.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Main.BorderSizePixel = 0
+Main.BackgroundTransparency = 0.3
 Main.Position = UDim2.new(0.335954279, 0, 0.542361975, 0)
 Main.Size = UDim2.new(0.240350261, 0, 0.166880623, 0)
 Main.Active = true
@@ -31,6 +32,7 @@ Main.Draggable = true
 Box.Name = "Box"
 Box.Parent = Main
 Box.BackgroundColor3 = Color3.fromRGB(95, 95, 95)
+Main.BackgroundTransparency = 0.3
 Box.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Box.BorderSizePixel = 0
 Box.Position = UDim2.new(0.0980926454, 0, 0.218712583, 0)
@@ -49,6 +51,7 @@ UITextSizeConstraint.MaxTextSize = 31
 Label.Name = "Label"
 Label.Parent = Main
 Label.BackgroundColor3 = Color3.fromRGB(95, 95, 95)
+Main.BackgroundTransparency = 0.3
 Label.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Label.BorderSizePixel = 0
 Label.Size = UDim2.new(1, 0, 0.160583943, 0)
@@ -65,6 +68,7 @@ UITextSizeConstraint_2.MaxTextSize = 21
 Button.Name = "Button"
 Button.Parent = Main
 Button.BackgroundColor3 = Color3.fromRGB(95, 95, 95)
+Main.BackgroundTransparency = 0.3
 Button.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Button.BorderSizePixel = 0
 Button.Position = UDim2.new(0.183284417, 0, 0.656760991, 0)
