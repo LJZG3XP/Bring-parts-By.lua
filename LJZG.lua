@@ -14,7 +14,7 @@ local UITextSizeConstraint_3 = Instance.new("UITextSizeConstraint")
 
 -- Agregamos efectos visuales modernos
 local Blur = Instance.new("BlurEffect", game:GetService("Lighting"))
-Blur.Size = 4
+Blur.Size = 0
 Blur.Enabled = false
 
 local DropShadow = Instance.new("Frame")
